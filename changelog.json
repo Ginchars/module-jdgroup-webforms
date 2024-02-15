@@ -1,0 +1,11 @@
+{
+    "_readme": [
+        "When adding new change-log records, developers are recommended the following guide:",
+        "https://docs.vaimo.com/workflow-module/guides.html#changelog-usage"
+    ],
+    "0.1.0": {
+        "feature": [
+            "Initial setup from module skeleton"
+        ]
+    }
+}

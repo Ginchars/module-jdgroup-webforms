@@ -1,0 +1,67 @@
+{
+    "name": "vaimo/module-jdgroup-webforms",
+    "type": "magento2-module",
+    "description": "JDGroup MageMe webform extension",
+    "license": "proprietary",
+    "require": {
+        "magento/framework": "103.0.*"
+    },
+    "require-dev": {
+        "vaimo/module-sa-quality-tools": "^1.0.2"
+    },
+    "config": {
+        "platform": {
+            "php": "8.1.0"
+        },
+        "allow-plugins": {
+            "magento/*": true,
+            "vaimo/*": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "support": {
+        "issues": "https://bitbucket.org/vaimo/module-jdgroup-webforms/issues"
+    },
+    "authors": [
+        {
+            "name": "Gints Stikans",
+            "email": "gints.stikans@vaimo.com"
+        }
+    ],
+    "keywords": [
+        "webforms"
+    ],
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Vaimo\\JdgroupWebforms\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vaimo\\JdgroupWebforms\\Test\\": "test"
+        }
+    },
+    "minimum-stability":"dev",
+    "prefer-stable":true,
+    "extra": {
+        "vaimo-module-category": "webforms",
+        "magento-root-dir": "vendor/magento/magento2-base",
+        "magento-force": true,
+        "changelog": {
+            "source": "changelog.json",
+            "output": {
+                "sphinx": "docs/changelog.rst"
+            }
+        }
+    },
+    "repositories": {
+        "packagist.org": false,
+        "private-packagist": {
+            "type": "composer",
+            "url": "https://repo.packagist.com/vaimo/"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+ Copyright © Vaimo Group. All rights reserved.
+ See LICENSE_VAIMO.txt for license details.
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="MageMe_Core::extensions" title="MageMe Extensions" sortOrder="50">
+                    <resource id="MageMe_WebForms::webforms" title="WebForms" sortOrder="10">
+                        <resource id="MageMe_WebForms::manage_forms" title="Manage Forms" sortOrder="1">
+                            <resource id="MageMe_WebForms::export_form_data" title="Add Form" sortOrder="10"/>
+                        </resource>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

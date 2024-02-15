@@ -1,0 +1,12 @@
+# This is the root folder for all test suites. The most typical ones used are: 
+# 
+# Unit - test single class (or combination of classes) in isolation (database, etc not available).   
+# Integration - test a execution flow in a fully working Magento (sand-boxed). 
+# 
+# HINT: You can generate the test cases with command provided by
+#       testing-tools: https://docs.vaimo.com/module-testing-tools/commands.html 
+#
+# HINT: When considering removing Test folder, don't. Even a single test is better than
+#       no tests at all. If you decide to skip writing tests, then at least keep the folder
+#       around as a reminder that we've just several minutes away from having automated logic 
+#       validation checks as part of your module building process.  

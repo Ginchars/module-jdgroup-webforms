@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+ Copyright © Vaimo Group. All rights reserved.
+ See LICENSE_VAIMO.txt for license details.
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="MageMe\WebForms\Model\Form" type="Vaimo\JdgroupWebforms\Model\Form"/>
+    <type name="MageMe\WebForms\Ui\Component\Result\Listing\Column\Action">
+        <plugin name="add_export_download_actions" type="Vaimo\JdgroupWebforms\Plugin\WebForms\Result\Action" sortOrder="100" />
+    </type>
+</config>

@@ -1,0 +1,4 @@
+# If you want certain parts of documentation to be available on multiple pages, write those parts
+# here and include them with the following directive where needed:
+#
+# .. include:: /includes/my-include.rst
